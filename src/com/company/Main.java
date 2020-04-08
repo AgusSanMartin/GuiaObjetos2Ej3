@@ -14,6 +14,8 @@ public class Main {
                                                                                     cli.getNomYape(),
                                                                                     cli.getGenero());
 
+
+
         Cuenta c1 = new Cuenta(10000,cli);
         c1.depositar(2000);
         Thread.sleep(1000);
